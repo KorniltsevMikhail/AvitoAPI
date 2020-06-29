@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d354c0b-f23b-41ff-8917-9300ac723fd6">
+  <producedTypes>
+    <objectType typeId="c5f49514-af87-4fb7-b4fa-36fec2b4d556" valueTypeId="2be630c2-f28f-445c-a779-fafb2bee3fee"/>
+    <refType typeId="7bb50e3d-30e8-495b-aaad-81f11af25c2f" valueTypeId="a5f88028-d1db-49b2-93a8-1c41a8f65fe4"/>
+    <selectionType typeId="d03a7c7d-4b33-49bd-bf7d-99f3ebf95350" valueTypeId="105cc061-b8c9-42f0-aa5b-dd2a78bc705c"/>
+    <listType typeId="f3f3012c-18db-4e75-b393-3cd453a21b5f" valueTypeId="c66f0824-3a37-4d0d-8e72-fbe76e5e2584"/>
+    <managerType typeId="639e6c7c-c859-43df-9c73-4e9baa0acc6f" valueTypeId="736f1cd1-7b32-469c-8388-9bb5a1291d66"/>
+  </producedTypes>
+  <name>Кабинеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кабинеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кабинеты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Кабинеты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Кабинеты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="1b62d5ae-72dc-47c9-8216-784692d9cf79">
+    <name>КлиентИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент ИД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa3af29d-8ea6-4f57-bd17-284929540f37">
+    <name>КлиентСекрет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент секрет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78994825-b1a3-416d-84bf-e3e024a6692c">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="52705968-2525-4c5d-a437-5e667a9b6010">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

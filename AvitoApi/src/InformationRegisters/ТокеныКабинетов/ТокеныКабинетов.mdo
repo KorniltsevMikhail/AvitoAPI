@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e93c1087-823e-4768-b79b-055427ea76b5">
+  <producedTypes>
+    <selectionType typeId="0f1e495f-fb15-444d-b710-79a3f8843a9e" valueTypeId="89b1fbc5-bb7d-4ca3-a7e3-a9cbda905725"/>
+    <listType typeId="e214d8cf-23f7-4a50-95f1-e76a1cb09e7c" valueTypeId="4fbd8c0b-12b9-4875-8367-f422de1aee34"/>
+    <managerType typeId="f34be85d-e3b6-4d78-824f-77d57e3bd954" valueTypeId="4813eb0d-0226-4277-9bd1-dba5b2a54366"/>
+    <recordSetType typeId="56c8e98c-c9fc-4ab4-8e50-e141038921fd" valueTypeId="70d2c81d-9349-4261-bf67-399bfa5e4226"/>
+    <recordKeyType typeId="e1a0b84d-f26a-4433-8a26-badc22c96887" valueTypeId="7bcece01-cb8b-4c92-a582-c1c843ab2462"/>
+    <recordType typeId="4a0282bc-f648-4e3a-aaf6-a8db9ec15b30" valueTypeId="bbc51a2b-1cb6-4bd7-8249-070432600a14"/>
+    <recordManagerType typeId="d828ffa1-c8e4-4fc1-8438-cea7f797993c" valueTypeId="8ce64a3d-285b-477c-8086-98ea17ca5916"/>
+  </producedTypes>
+  <name>ТокеныКабинетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токены кабинетов</value>
+  </synonym>
+  <comment>Хранит информацию о последнем токене кабинета и дате окончания действия</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b84a1c98-77f6-4de8-923a-e51701ca1fba">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="e681e867-49a8-439c-b65c-d7df0483c14d">
+    <name>ДатаОкончанияДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="11f1e628-20f2-4104-963c-56153026f7ab">
+    <name>Кабинет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабинет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кабинеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

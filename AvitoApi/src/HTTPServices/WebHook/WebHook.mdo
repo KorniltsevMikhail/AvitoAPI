@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="335ffa6f-67ce-46c8-a144-a726b3b3fbd8">
+  <name>WebHook</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web hook</value>
+  </synonym>
+  <rootURL>AvitoWebHook</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="640eba0d-9506-45ae-a04a-923ecbcd5be2">
+    <name>GetNotifications</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get notifications</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="fdaf6178-10c1-4be2-afd0-1adb23db90c6">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>GetKekGet</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
