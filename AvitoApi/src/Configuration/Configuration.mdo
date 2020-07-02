@@ -33,5 +33,7 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <httpServices>HTTPService.WebHook</httpServices>
   <catalogs>Catalog.Кабинеты</catalogs>
+  <enums>Enum.ТипыСообщенийАвито</enums>
   <informationRegisters>InformationRegister.ТокеныКабинетов</informationRegisters>
+  <informationRegisters>InformationRegister.РеестрСообщенийАвито</informationRegisters>
 </mdclass:Configuration>

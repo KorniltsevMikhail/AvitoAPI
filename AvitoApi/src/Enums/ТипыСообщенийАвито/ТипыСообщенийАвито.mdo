@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b55ff153-b543-4ed2-877f-36515023a068">
+  <producedTypes>
+    <refType typeId="c489c552-e683-473d-8a63-cf72c72ae9fa" valueTypeId="5f165c7a-7522-4a3f-8c74-6925708342be"/>
+    <listType typeId="5a29bc34-1d05-46ff-b2bc-f904e141046a" valueTypeId="0fb2ed1a-f611-4e5a-8428-c303e4e81ed7"/>
+    <managerType typeId="a8f7d436-6e01-46ba-b404-e20f711bd265" valueTypeId="0d4330c7-a9db-43db-b4dc-ab16fa9e5588"/>
+  </producedTypes>
+  <name>ТипыСообщенийАвито</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сообщений авито</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ead6ecd9-246d-4598-91de-eea3c707f314">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3270c19c-9075-4dfd-804f-138e1a36c05c">
+    <name>Изображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="581db234-361a-4626-89bb-712d11076786">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1245031b-51d1-4a6c-bdc3-11bfede0e48b">
+    <name>Звонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звонок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c636e988-4c90-4510-8fc4-df1ce1f58064">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4da6be34-c55f-4403-a250-6cdaba947ab9">
+    <name>Объявление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объявление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

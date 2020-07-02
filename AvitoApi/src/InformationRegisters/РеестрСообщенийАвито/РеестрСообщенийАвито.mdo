@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c19f5a03-3f25-48ee-aa02-c8fc9a1b1b4c">
+  <producedTypes>
+    <selectionType typeId="7fc56472-f0a0-4401-a2d2-18cb987d3e1a" valueTypeId="2c623750-80fb-46a3-83b6-64b45fb028a8"/>
+    <listType typeId="66df4d20-933c-406f-8fc0-d542d083e6b5" valueTypeId="9dde7930-f063-44b9-aa31-295f964357cd"/>
+    <managerType typeId="fb6c0d3c-ec09-42cf-88fe-748a486ecca6" valueTypeId="bf4b6746-7c43-4a1f-bfe8-649540b1bde8"/>
+    <recordSetType typeId="db01ba80-e4cb-419f-a17e-cff0ebd215c0" valueTypeId="ae747a70-85b5-4114-b1dc-11cd7ceb7792"/>
+    <recordKeyType typeId="a60625dc-239a-40b0-a676-b80686f9ebec" valueTypeId="1e830443-9095-4575-8e70-7998c9612bf0"/>
+    <recordType typeId="fceacf1a-710c-4344-bed3-1591b4625dcd" valueTypeId="9fab544c-fc2a-4b31-881e-582069f39b53"/>
+    <recordManagerType typeId="b880afd5-8009-430e-b89f-42c774ab3fe4" valueTypeId="02d0be43-7802-4d37-971b-4d2b64bbb48e"/>
+  </producedTypes>
+  <name>РеестрСообщенийАвито</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр сообщений авито</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e20fdcb1-66ea-4fde-b8e6-c21ed9eba9b5">
+    <name>ИДПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДПолучателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="27b758ac-b5b9-4380-9f7b-6d698db714d0">
+    <name>ИДОтправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДОтправителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="9ee3c0a6-b593-4e92-90e3-6567481bbc9b">
+    <name>ДатаОтправкиСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки сообщения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="39447065-5645-4d97-935f-694064baba65">
+    <name>ТипСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСообщенийАвито</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="2431ffe5-00e3-4c6d-9b12-e6f7ef54ff01">
+    <name>строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="d3038028-769a-4699-bc4a-e979f7ec9f93">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="98b42cf0-efcf-4aaa-99d6-4b36f43734cd">
+    <name>ИДСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДСообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6752f5b6-9913-4370-b464-37f4f237dd82">
+    <name>ИДЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДЧата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a343f505-905b-4120-9ff9-374bc12f768f">
+    <name>уид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уид</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

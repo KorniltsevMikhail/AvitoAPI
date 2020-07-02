@@ -23,5 +23,14 @@
       </synonym>
       <handler>GetKekGet</handler>
     </methods>
+    <methods uuid="766e28e6-c510-4c18-90ee-de8bee192a86">
+      <name>Метод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetNotificationsМетод</handler>
+    </methods>
   </urlTemplates>
 </mdclass:HTTPService>

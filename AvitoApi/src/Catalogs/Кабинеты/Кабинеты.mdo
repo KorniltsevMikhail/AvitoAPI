@@ -89,6 +89,48 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ffc699f7-5272-48b4-b5ad-5d8ace9b085c">
+    <name>ВебХукСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб хук ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c3802645-4a8b-49d0-b819-3eedef65df38">
+    <name>ВебхукВключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВебХук включен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0670021-517d-4c53-8cac-bbc32b85f26d">
+    <name>ПерсональныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="52705968-2525-4c5d-a437-5e667a9b6010">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -98,4 +140,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="fa695c9c-cfe5-4216-b458-3867932f6241">
+    <name>ИсторияОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>История операций</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>
